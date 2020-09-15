@@ -3,6 +3,11 @@
 
 
 def is_even_len(string: str) -> bool:
+    x = len(string)
+    if x is even:
+        print( le nombre de caractere dans la chaine {string} est pair)
+        else:
+            print(la chaine est impair)
     pass
 
 
