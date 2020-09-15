@@ -3,16 +3,17 @@
 
 
 def is_even_len(string: str) -> bool:
-    x = len(string)
-    if x is even:
-        print( le nombre de caractere dans la chaine {string} est pair)
-        else:
-            print(la chaine est impair)
-    pass
+    if len(string) % 2 = 0:
+        return true
+    else:
+        return false
+    
 
 
 def remove_third_char(string: str) -> str:
-    pass
+    begin = string[0: 2]
+    end = string[3:]
+    return begin + end
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
