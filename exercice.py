@@ -17,22 +17,16 @@ def remove_third_char(string: str) -> str:
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    a = string[0: 2]
-    b = string[2] 
-    c = string[0:]
-    d = "q"
-    e = "e"
-    if b != c:
+    a = string[0: i]
+    b = string[i] 
+    c = string[i + 1:]
+    d = new_char
+    
+    if b == old_char:
         return a + d + c
-    else:
-        return a + e + c
     
-    
-    
-
-
 def get_number_of_char(string: str, char: str) -> int:
-    pass
+    
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
